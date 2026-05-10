@@ -1,35 +1,9 @@
 # git / PR
 
-```text
-clone -> branch -> edit -> commit -> push -> PR
-```
-
-Clone：
-
-```bash
-git clone https://github.com/inhalc/tiny-gpt-lab.git
-cd tiny-gpt-lab
-```
-
 Branch：
 
 ```bash
 git checkout -b week1-bootstrap
-```
-
-Edit：
-
-```bash
-mkdir -p week01_bootstrap/workspace
-cp week01_bootstrap/submission_template/README.md week01_bootstrap/workspace/README.md
-cp week01_bootstrap/submission_template/experiment.md week01_bootstrap/workspace/experiment.md
-cp week01_bootstrap/starter_code/train.py week01_bootstrap/workspace/train.py
-```
-
-只改：
-
-```text
-week01_bootstrap/workspace/
 ```
 
 Commit：

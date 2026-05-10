@@ -1,78 +1,78 @@
 # Tiny GPT Lab
 
-A small learning-by-doing lab for understanding GPT-style model work from the ground up.
+一个面向本科生的小型 GPT/LLM 学习实验室，用“动手做”的方式建立基础研究习惯。
 
-Project URL: https://github.com/inhalc/tiny-gpt-lab
+项目地址：https://github.com/inhalc/tiny-gpt-lab
 
-## Start Here
+## 从这里开始
 
-Current focus: **Week 1 - Bootstrap**
+当前阶段：**第 1 周 - 启动周**
 
-Week 1 entry point: [`week01_bootstrap/tasks.md`](week01_bootstrap/tasks.md)
+第 1 周入口：[`week01_bootstrap/tasks.md`](week01_bootstrap/tasks.md)
 
-For now, students only need to read these three files:
+现阶段，学生只需要先看这三个文件：
 
 1. [`README.md`](README.md)
 2. [`docs/setup.md`](docs/setup.md)
 3. [`week01_bootstrap/tasks.md`](week01_bootstrap/tasks.md)
 
-## What You Will Do This Week
+## 本周要做什么
 
-- Set up your Python and PyTorch environment
-- Practice the basic GitHub workflow
-- Run and edit a simple PyTorch training loop
-- Record one small experiment
-- Submit your work through a pull request
+- 配好 Python 和 PyTorch 环境
+- 练习基本 GitHub 工作流
+- 运行并修改一个简单的 PyTorch 训练循环
+- 记录一次小实验
+- 通过 Pull Request 提交作业
 
-## Minimal Workflow
+## 最小工作流
 
 ```bash
 git clone https://github.com/inhalc/tiny-gpt-lab.git
 cd tiny-gpt-lab
 git checkout -b week1-yourname
 
-# edit files, run code, and write your notes
+# 修改文件、运行代码、记录观察
 
 git add week01_bootstrap
 git commit -m "Complete week 1 bootstrap"
 git push -u origin week1-yourname
 ```
 
-Then open a pull request on GitHub:
+然后在 GitHub 上打开 Pull Request：
 
-- Base branch: `main`
-- Compare branch: `week1-yourname`
-- PR title: `Week 1 - Your Name`
-- PR description: summarize what you ran, changed, observed, and questioned
+- Base branch：`main`
+- Compare branch：`week1-yourname`
+- PR 标题：`Week 1 - Your Name`
+- PR 描述：说明你运行了什么、修改了什么、观察到了什么、还有什么问题
 
-## What To Submit
+## 最后要提交什么
 
-Create your own Week 1 submission from the templates in:
+从下面的模板开始创建你的第 1 周提交：
 
 [`week01_bootstrap/submission_template/`](week01_bootstrap/submission_template/)
 
-Your pull request should include:
+你的 Pull Request 应该包含：
 
-- A completed submission `README.md`
-- A completed `experiment.md`
-- Any small changes you made to `starter_code/train.py`
+- 填写完成的提交说明 `README.md`
+- 填写完成的实验记录 `experiment.md`
+- 你对 `starter_code/train.py` 做的小修改
 
-## How To Record Problems
+## 遇到问题怎么记录
 
-When you get stuck, write down:
+遇到卡住的地方时，写下：
 
-- What you tried
-- What command you ran
-- What error or result you saw
-- What you think might be happening
-- What you want to ask in review
+- 你尝试了什么
+- 你运行了什么命令
+- 你看到了什么错误或结果
+- 你猜可能是什么原因
+- 你想在 review 里问什么
 
-Use the `experiment.md` template even if the experiment did not work. Failed runs are still useful data.
+即使实验没有跑通，也要使用 `experiment.md` 模板记录。失败的运行也是有价值的数据。
 
-## Repository Map
+## 仓库地图
 
-- [`docs/setup.md`](docs/setup.md): environment setup
-- [`docs/workflow.md`](docs/workflow.md): GitHub workflow notes
-- [`week01_bootstrap/tasks.md`](week01_bootstrap/tasks.md): Week 1 checklist
-- [`week01_bootstrap/starter_code/train.py`](week01_bootstrap/starter_code/train.py): starter PyTorch training loop
-- [`week01_bootstrap/submission_template/`](week01_bootstrap/submission_template/): templates for student submissions
+- [`docs/setup.md`](docs/setup.md)：环境配置
+- [`docs/workflow.md`](docs/workflow.md)：GitHub 工作流说明
+- [`week01_bootstrap/tasks.md`](week01_bootstrap/tasks.md)：第 1 周任务清单
+- [`week01_bootstrap/starter_code/train.py`](week01_bootstrap/starter_code/train.py)：PyTorch 训练循环 starter code
+- [`week01_bootstrap/submission_template/`](week01_bootstrap/submission_template/)：学生提交模板

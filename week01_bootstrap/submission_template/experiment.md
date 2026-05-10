@@ -1,34 +1,34 @@
-# Experiment Log
+# 实验记录
 
-## Goal
+## 目标
 
-What are you trying to test?
+你想测试什么？
 
-## Setup
+## 设置
 
-- File:
-- Command:
-- Python version:
-- PyTorch version:
-- Learning rate:
-- Number of steps:
+- 文件：
+- 命令：
+- Python 版本：
+- PyTorch 版本：
+- learning rate：
+- 训练步数：
 
-## Result
+## 结果
 
-What happened? Include a few loss values if useful.
+发生了什么？如果有帮助，可以记录几个 loss 数值。
 
-## Observation
+## 观察
 
-What did you notice?
+你注意到了什么？
 
-## Problem Log
+## 问题记录
 
-If something failed, record:
+如果有东西失败了，请记录：
 
-- What you tried:
-- What error or result you saw:
-- What you think might be happening:
+- 你尝试了什么：
+- 你看到了什么错误或结果：
+- 你猜可能是什么原因：
 
-## Next Step
+## 下一步
 
-What would you try next?
+下一步你会尝试什么？

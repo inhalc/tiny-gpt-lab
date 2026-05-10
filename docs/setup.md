@@ -31,9 +31,3 @@ Git 身份：
 git config --global user.name "your-name"
 git config --global user.email "you@example.com"
 ```
-
-SSH：
-
-```bash
-ssh-keygen -t ed25519 -C "you@example.com"
-```

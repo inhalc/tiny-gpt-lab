@@ -17,8 +17,8 @@ python week01_bootstrap/train.py
 先改这些：
 
 - `lr`
-- 参数初始化
 - 训练步数
+- `noise` 大小
 
 改动放在：
 

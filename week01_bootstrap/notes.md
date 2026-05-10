@@ -5,6 +5,7 @@
 - Python:
 - PyTorch:
 - CUDA:
+- GPU:
 
 ## 改动
 

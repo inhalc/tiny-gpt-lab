@@ -26,6 +26,7 @@ python week01_bootstrap/train.py
 - `lr`
 - 训练步数
 - `noise` 大小
+- `batch_size`
 
 改动放在：
 
@@ -45,7 +46,7 @@ week01_bootstrap/
 - 运行命令
 - `device`
 - 改了什么值
-- `loss` 怎么变化
+- `train_loss` / `eval_loss` 怎么变化
 - 报错或卡住的地方
 
 ## 提交

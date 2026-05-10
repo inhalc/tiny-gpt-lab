@@ -3,12 +3,12 @@
 先看：
 
 - 环境：[`docs/setup.md`](docs/setup.md)
-- 当前推进：[`week01_bootstrap/tasks.md`](week01_bootstrap/tasks.md)
+- 当前推进：[`week01_bootstrap/README.md`](week01_bootstrap/README.md)
 
-工作目录：
+当前目录：
 
 ```text
-week01_bootstrap/workspace/
+week01_bootstrap/
 ```
 
 Git / PR：

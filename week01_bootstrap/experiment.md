@@ -11,6 +11,7 @@ python week01_bootstrap/train.py
 - `lr`:
 - `steps`:
 - `noise`:
+- `device`:
 - 开始几步的 `loss`:
 - 最后几步的 `loss`:
 - 最后的 `w / b`:
@@ -28,6 +29,7 @@ python week01_bootstrap/train.py
 - `lr`:
 - `steps`:
 - `noise`:
+- `device`:
 - 开始几步的 `loss`:
 - 最后几步的 `loss`:
 - 最后的 `w / b`:

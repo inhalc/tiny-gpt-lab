@@ -1,33 +1,33 @@
 # experiment
 
-## Run 1
+## 运行 1
 
-Command:
-
-```bash
-python week01_bootstrap/train.py
-```
-
-- `lr`:
-- first loss values:
-- final loss values:
-- pattern: decreasing / oscillating / diverging / unclear
-- note:
-
-## Run 2
-
-Command:
+命令：
 
 ```bash
 python week01_bootstrap/train.py
 ```
 
 - `lr`:
-- first loss values:
-- final loss values:
-- pattern: decreasing / oscillating / diverging / unclear
-- note:
+- 开始几步的 `loss`:
+- 最后几步的 `loss`:
+- 变化：下降 / 震荡 / 发散 / 不确定
+- 备注：
 
-## Observation
+## 运行 2
+
+命令：
+
+```bash
+python week01_bootstrap/train.py
+```
+
+- `lr`:
+- 开始几步的 `loss`:
+- 最后几步的 `loss`:
+- 变化：下降 / 震荡 / 发散 / 不确定
+- 备注：
+
+## 观察
 
 -

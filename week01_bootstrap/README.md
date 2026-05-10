@@ -1,54 +1,54 @@
 # week01_bootstrap
 
-## Files
+## 文件
 
-- `train.py`: runnable training script
-- `experiment.md`: loss / learning rate notes
-- `notes.md`: environment, changes, open issues
+- `train.py`：可直接运行的训练脚本
+- `experiment.md`：记录 `loss`、`lr` 和观察
+- `notes.md`：记录环境、改动和卡住的问题
 
-## Run
+## 运行
 
 ```bash
 python week01_bootstrap/train.py
 ```
 
-## Change
+## 修改
 
-Start with:
+先改这些：
 
 - `lr`
-- parameter initialization
-- number of steps
+- 参数初始化
+- 训练步数
 
-Keep changes in:
+改动放在：
 
 ```text
 week01_bootstrap/
 ```
 
-## Record
+## 记录
 
-Update:
+更新：
 
 - `experiment.md`
 - `notes.md`
 
-Track:
+记录这些信息：
 
-- command
-- changed value
-- loss pattern
-- error or blocker
+- 运行命令
+- 改了什么值
+- `loss` 怎么变化
+- 报错或卡住的地方
 
-## Submit
+## 提交
 
-Use:
+按这里走：
 
 - [`../docs/workflow.md`](../docs/workflow.md)
 
-PR summary:
+PR 里写清楚：
 
-- command run
-- code change
-- observed behavior
-- blocker, if any
+- 跑了什么命令
+- 改了什么代码
+- 观察到什么现象
+- 有没有卡住的问题

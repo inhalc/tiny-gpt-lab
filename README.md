@@ -1,18 +1,19 @@
 # tiny-gpt-lab
 
-入口：
+先看：
 
-- Week 1：[`week01_bootstrap/tasks.md`](week01_bootstrap/tasks.md)
 - 环境：[`docs/setup.md`](docs/setup.md)
-- Git / PR：[`docs/workflow.md`](docs/workflow.md)
+- 当前推进：[`week01_bootstrap/tasks.md`](week01_bootstrap/tasks.md)
 
-本周工作目录：
+工作目录：
 
 ```text
 week01_bootstrap/workspace/
 ```
 
-提交：
+Git / PR：
+
+- [`docs/workflow.md`](docs/workflow.md)
 
 ```text
 branch -> commit -> push -> PR

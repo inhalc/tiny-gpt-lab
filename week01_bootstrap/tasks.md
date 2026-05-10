@@ -1,4 +1,4 @@
-# Week 1
+# bootstrap
 
 工作目录：
 
@@ -6,7 +6,7 @@
 week01_bootstrap/workspace/
 ```
 
-本周文件：
+这里先留下：
 
 - `workspace/README.md`
 - `workspace/experiment.md`
@@ -17,7 +17,7 @@ week01_bootstrap/workspace/
 - `main`
 - `starter_code/`
 
-## 1. 环境
+## 环境先跑通
 
 看：
 
@@ -27,7 +27,7 @@ week01_bootstrap/workspace/
 
 - `workspace/README.md`
 
-## 2. 跑代码
+## 先直接跑
 
 ```bash
 python week01_bootstrap/workspace/train.py
@@ -37,7 +37,7 @@ python week01_bootstrap/workspace/train.py
 
 - `workspace/experiment.md`
 
-## 3. 改 learning rate
+## 改一下 learning rate
 
 改：
 
@@ -60,7 +60,7 @@ week01_bootstrap/starter_code/train.py
 
 - `workspace/experiment.md`
 
-## 4. 补工作记录
+## 记一下过程
 
 填：
 
@@ -68,13 +68,13 @@ week01_bootstrap/starter_code/train.py
 
 写：
 
-- 完成了什么
+- 做了什么
 - 改了什么
 - 看到什么
 - 卡在哪里
-- 周五想讨论什么
+- 后面想一起看的问题
 
-## 5. 提交
+## push 上来
 
 看：
 
@@ -86,10 +86,10 @@ PR 里带上：
 - `workspace/experiment.md`
 - `workspace/train.py`
 
-## 周五讨论
+有问题直接记下来，push 之后一起看。
 
-- loss 为什么会下降
-- `backward()` 做了什么
-- 为什么要 `zero_grad()`
-- 为什么 `w` / `b` 要 `requires_grad=True`
+改 learning rate 的时候顺便看：
+
+- loss 会不会下降
+- loss 会不会震荡
 - learning rate 变大或变小时，loss 怎么变

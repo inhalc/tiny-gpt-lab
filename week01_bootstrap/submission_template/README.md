@@ -1,33 +1,33 @@
-# Week 1 Submission - Your Name
+# 第 1 周提交 - 你的姓名
 
-## What I Completed
+## 我完成了什么
 
-- [ ] Environment setup
-- [ ] GitHub branch, commit, push, and pull request
-- [ ] Starter training loop run
-- [ ] Learning rate experiment
-- [ ] Experiment log
+- [ ] 环境配置
+- [ ] GitHub 分支、commit、push 和 Pull Request
+- [ ] 运行 starter 训练循环
+- [ ] learning rate 实验
+- [ ] 实验记录
 
-## Environment
+## 环境信息
 
-- Python version:
-- PyTorch version:
-- CUDA available:
+- Python 版本：
+- PyTorch 版本：
+- CUDA 是否可用：
 
-## Summary
+## 总结
 
-Write 3-5 sentences about what you did this week.
+用 3-5 句话说明你本周做了什么。
 
-## Main Observation
+## 主要观察
 
-What did you notice when running or changing `starter_code/train.py`?
+运行或修改 `starter_code/train.py` 时，你观察到了什么？
 
-## Problems Or Questions
+## 遇到的问题或疑问
 
-List anything that confused you, failed, or needs review.
+列出让你困惑、运行失败、或希望老师 review 的内容。
 
-## Files Included
+## 本次提交包含的文件
 
 - `README.md`
 - `experiment.md`
-- Any edited code files:
+- 修改过的代码文件：

@@ -1,97 +1,97 @@
-# Week 1 - Bootstrap Checklist
+# 第 1 周 - 启动周任务清单
 
-Start here after reading:
+请先阅读：
 
 1. [`../README.md`](../README.md)
 2. [`../docs/setup.md`](../docs/setup.md)
 
-Goal for Week 1: get your environment working, practice the GitHub workflow, run a simple PyTorch training loop, and record what you observe.
+第 1 周目标：配好环境，练习 GitHub 工作流，跑通一个简单的 PyTorch 训练循环，并记录你的观察。
 
 ---
 
-## Checklist
+## 任务清单
 
-### 1. Environment Setup
+### 1. 环境配置
 
-- [ ] Install Git
-- [ ] Install VS Code or another editor
-- [ ] Install Conda or another Python environment manager
-- [ ] Create a Python environment for this lab
-- [ ] Install PyTorch
-- [ ] Run the environment check from [`../docs/setup.md`](../docs/setup.md)
+- [ ] 安装 Git
+- [ ] 安装 VS Code 或其他代码编辑器
+- [ ] 安装 Conda 或其他 Python 环境管理工具
+- [ ] 为本实验室创建一个 Python 环境
+- [ ] 安装 PyTorch
+- [ ] 按照 [`../docs/setup.md`](../docs/setup.md) 完成环境检查
 
-Clear deliverable:
+明确产出：
 
-- In your submission `README.md`, record your Python version, PyTorch version, and whether CUDA is available.
+- 在你的提交 `README.md` 中记录 Python 版本、PyTorch 版本，以及 CUDA 是否可用。
 
-### 2. GitHub Workflow Practice
+### 2. GitHub 工作流练习
 
-- [ ] Clone the repository
-- [ ] Create a branch named `week1-yourname`
-- [ ] Make a small edit in your Week 1 submission files
-- [ ] Commit your changes
-- [ ] Push your branch
-- [ ] Open a pull request into `main`
+- [ ] Clone 本仓库
+- [ ] 创建一个名为 `week1-yourname` 的分支
+- [ ] 在你的第 1 周提交文件里做一个小修改
+- [ ] Commit 你的修改
+- [ ] Push 你的分支
+- [ ] 向 `main` 打开一个 Pull Request
 
-Clear deliverable:
+明确产出：
 
-- A pull request from your Week 1 branch to `main`.
+- 一个从第 1 周分支指向 `main` 的 Pull Request。
 
-### 3. Run The Starter Training Loop
+### 3. 运行 starter 训练循环
 
-- [ ] Open [`starter_code/train.py`](starter_code/train.py)
-- [ ] Run the script
-- [ ] Confirm that the loss changes over time
-- [ ] Change the learning rate once
-- [ ] Run the script again
-- [ ] Compare the two runs
+- [ ] 打开 [`starter_code/train.py`](starter_code/train.py)
+- [ ] 运行这个脚本
+- [ ] 确认 loss 会随着训练过程变化
+- [ ] 修改一次 learning rate
+- [ ] 再运行一次脚本
+- [ ] 对比两次运行结果
 
-Clear deliverable:
+明确产出：
 
-- In `experiment.md`, record the command you ran, the learning rates you tried, and what happened to the loss.
+- 在 `experiment.md` 中记录你运行的命令、尝试过的 learning rate，以及 loss 发生了什么变化。
 
-### 4. Write An Experiment Log
+### 4. 写实验记录
 
-- [ ] Copy [`submission_template/experiment.md`](submission_template/experiment.md) into your own submission folder
-- [ ] Fill in the goal
-- [ ] Fill in the setup
-- [ ] Record at least one result
-- [ ] Write one observation
-- [ ] Write one question or next step
+- [ ] 把 [`submission_template/experiment.md`](submission_template/experiment.md) 复制到你自己的提交文件夹
+- [ ] 填写实验目标
+- [ ] 填写实验设置
+- [ ] 记录至少一个结果
+- [ ] 写下一条观察
+- [ ] 写下一个问题或下一步计划
 
-Clear deliverable:
+明确产出：
 
-- A completed `experiment.md` included in your pull request.
+- 一个填写完成并包含在 Pull Request 中的 `experiment.md`。
 
-### 5. Prepare Your Week 1 Submission
+### 5. 准备第 1 周提交
 
-- [ ] Copy [`submission_template/README.md`](submission_template/README.md) into your own submission folder
-- [ ] Fill in your name
-- [ ] Summarize what you completed
-- [ ] Link or mention your experiment log
-- [ ] List any problems you hit
+- [ ] 把 [`submission_template/README.md`](submission_template/README.md) 复制到你自己的提交文件夹
+- [ ] 填写你的姓名
+- [ ] 总结你完成了什么
+- [ ] 链接或说明你的实验记录
+- [ ] 列出你遇到的问题
 
-Clear deliverable:
+明确产出：
 
-- A completed submission `README.md` included in your pull request.
+- 一个填写完成并包含在 Pull Request 中的提交 `README.md`。
 
 ---
 
-## Final Submission Checklist
+## 最终提交检查
 
-Before opening your pull request, make sure it includes:
+打开 Pull Request 之前，确认它包含：
 
-- [ ] Your completed submission `README.md`
-- [ ] Your completed `experiment.md`
-- [ ] Any small changes you made to [`starter_code/train.py`](starter_code/train.py)
-- [ ] A PR description that says what you ran, what changed, what you observed, and what questions you still have
+- [ ] 你填写完成的提交 `README.md`
+- [ ] 你填写完成的 `experiment.md`
+- [ ] 你对 [`starter_code/train.py`](starter_code/train.py) 做的小修改
+- [ ] 一段 PR 描述，说明你运行了什么、修改了什么、观察到了什么、还有什么问题
 
-## Discussion Questions
+## 讨论问题
 
-Be ready to discuss:
+请准备讨论：
 
-- Why does loss decrease?
-- What does `backward()` do?
-- Why do we call `zero_grad()`?
-- Why do `w` and `b` use `requires_grad=True`?
-- What can happen if the learning rate is too large?
+- 为什么 loss 会下降？
+- `backward()` 做了什么？
+- 为什么要调用 `zero_grad()`？
+- 为什么 `w` 和 `b` 要设置 `requires_grad=True`？
+- 如果 learning rate 太大，可能会发生什么？

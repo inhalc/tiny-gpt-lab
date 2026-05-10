@@ -1,10 +1,10 @@
 import torch
 
-# fake data: y = 2x + 1
+# 模拟数据：y = 2x + 1
 x = torch.randn(100, 1)
 y = 2 * x + 1
 
-# parameters to learn
+# 需要学习的参数
 w = torch.randn(1, requires_grad=True)
 b = torch.randn(1, requires_grad=True)
 

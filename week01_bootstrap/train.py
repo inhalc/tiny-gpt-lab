@@ -2,18 +2,21 @@ import torch
 
 torch.manual_seed(0)
 
+device = "cuda" if torch.cuda.is_available() else "cpu"
+
 # 模拟数据：y = 2x + 1，再加一点噪声
-x = torch.linspace(-3, 3, 100).unsqueeze(1)
-noise = 0.3 * torch.randn(100, 1)
+x = torch.linspace(-3, 3, 100, device=device).unsqueeze(1)
+noise = 0.3 * torch.randn(100, 1, device=device)
 y = 2 * x + 1 + noise
 
 # 需要学习的参数
-w = torch.randn(1, requires_grad=True)
-b = torch.randn(1, requires_grad=True)
+w = torch.randn(1, device=device, requires_grad=True)
+b = torch.randn(1, device=device, requires_grad=True)
 
 lr = 0.1
 steps = 200
 
+print(f"device={device}")
 print(f"start: w={w.item():.4f}, b={b.item():.4f}, lr={lr}")
 
 for step in range(steps):

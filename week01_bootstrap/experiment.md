@@ -1,6 +1,6 @@
 # experiment
 
-## 原始 learning rate
+## 第一次
 
 - 命令：
 
@@ -9,11 +9,12 @@ python week01_bootstrap/train.py
 ```
 
 - learning rate：
-- loss 变化：
-- 观察：
-- 猜测：
+- 开头几步 loss：
+- 最后几步 loss：
+- 看起来是：下降 / 震荡 / 发散 / 没看出来
+- 备注：
 
-## 改过的 learning rate
+## 改 learning rate 后
 
 - 命令：
 
@@ -22,14 +23,11 @@ python week01_bootstrap/train.py
 ```
 
 - learning rate：
-- loss 变化：
-- 观察：
-- 猜测：
+- 开头几步 loss：
+- 最后几步 loss：
+- 看起来是：下降 / 震荡 / 发散 / 没看出来
+- 备注：
 
-## 对比
-
--
-
-## 下一步
+## 这次看到的
 
 -

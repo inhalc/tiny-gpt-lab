@@ -2,9 +2,10 @@
 
 ## 入口
 
+- 当前工作：[`week01_bootstrap/README.md`](week01_bootstrap/README.md)
 - 环境检查：[`docs/setup.md`](docs/setup.md)
 - Git / PR：[`docs/workflow.md`](docs/workflow.md)
-- 当前工作：[`week01_bootstrap/README.md`](week01_bootstrap/README.md)
+
 
 ## 当前目录
 

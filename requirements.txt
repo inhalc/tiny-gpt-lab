@@ -1,0 +1,5 @@
+torch>=2.0
+pyyaml>=6.0
+# week06+
+tiktoken>=0.5
+pytest>=7.0
